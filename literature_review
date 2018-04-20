@@ -1,1 +1,60 @@
 Put in here links and descriptions of different studies related to the project. Will then use during the writing of the report.
+
+1: "Improved Opponent Modeling in Poker"
+
+http://webdocs.cs.ualberta.ca/~duane/publications/pdf/2000icai.pdf
+
+Explains why poker is an interesting model to use for AI research. 
+Focuses on importance of deriving different opponents styles.
+Poker involves modeling:
+  The opponent's cards
+  Many players 
+  Deception / bluffs
+  Agent modeling
+The study outlines basics of opponent modeling:
+  During the course of each hand, a weight table
+  is maintained for each opponent. For each
+  possible combination of hole cards, the table
+  gives the probability that the opponent would
+  have played that hand to the present point in
+  the game. Since there are only 1326 two-card
+  combinations, it is convenient to store a value
+  in the range 0.0 to 1.0 for each particular hand.
+  This probability distribution is updated after
+  each opponent action, to be consistent with
+  the betting decisions observed throughout the
+  current hand. The precise details of this reweighting
+  process depends on our method of
+  modeling each opponent.
+We can cite this as how we modeled our hand strength and bet probabilities
+
+-------------------------------------------
+
+2. "A Case-Based Learner for Poker"
+
+https://www.researchgate.net/profile/Bjornar_Tessem/publication/229001385_A_case-based_learner_for_poker/links/546ca8ce0cf2b0bc8e539553.pdf
+
+"The poker card game may on the surface seem
+to be a game almost of the classic type, but has important
+characteristics that also makes it a psychological
+game, involving both interpreting other players
+behavior and modifying own behavior as the game
+goes on."
+
+"Hand strength (Hnd). This is a relative numeric
+value calculated with the Meerkat Library. This
+is relative to the number of opponents in the
+hand. The values range from 0-100 where 100
+indicates an unbeatable hand."
+
+They conducted an experiment playing against opponent and having their agent implemented with 
+a variety of basic strategies that include:
+CheckFold
+Bluff
+CallAny
+SemiBluff
+RaiseAny
+CheckRaise
+And then they compared the win / loss results of their agent using each of these strategies
+
+------------------------------------------------
