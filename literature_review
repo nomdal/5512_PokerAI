@@ -58,3 +58,19 @@ CheckRaise
 And then they compared the win / loss results of their agent using each of these strategies
 
 ------------------------------------------------
+
+3. "A Simplified Two-Person Poker"
+
+https://books.google.com/books?hl=en&lr=&id=OVfQCwAAQBAJ&oi=fnd&pg=PA97&dq=poker+strategy&ots=2Kf5eZ7b9Z&sig=YHlXf9DLeiUEvQ4Yyp2m6o1dIt8#v=onepage&q=poker%20strategy&f=false
+
+Take a look at a viable way to simplify the game for research, where there are only two players going back
+and forth for a limited number of moves
+
+Three turns, so one player starts, the other goes, then the first player ends.
+
+Looks at the game theory of this, breaking the game down into a payoff matrix
+
+This matrix is sensative to the effects of bluffing, and the paper discusses this
+and derives good strategies accordingly.
+
+
