@@ -73,4 +73,22 @@ Looks at the game theory of this, breaking the game down into a payoff matrix
 This matrix is sensative to the effects of bluffing, and the paper discusses this
 and derives good strategies accordingly.
 
+------------------------------------------------
+
+4. "An Exploration Strategy Facing Non-Stationary Agents"
+
+http://www.ifaamas.org/Proceedings/aamas2017/pdfs/p922.pdf
+
+Discusses importance of exploration in games where agents follow non-Stationary
+strategies such as poker
+
+Present a "Drift Exploration" strategy to 1) maximize short-term utility and 2)
+explore by detecting opponent behavior changes. Then introduces new RMAX algorithm
+
+Algorithm Idea: force agent to revisit state-action pairs that are "known" and
+not been visited in x rounds by increasing reward for those pairs to RMAX
+
+RMAX, with good parameterization, converges to optimal policy and capable of adapting
+to nonstationary opponents
+
 
